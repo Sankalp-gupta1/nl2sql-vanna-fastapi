@@ -47,17 +47,29 @@ The primary goals of this project are:
 
 
 User Query (Natural Language)
+
 ↓
+
 FastAPI
+
 ↓
+
 Vanna AI
+
 ↓
+
 SQL Generation
+
 ↓
+
 SQLite DB
+
 ↓
+
 Query Result
+
 ↓
+
 API Response
 
 
