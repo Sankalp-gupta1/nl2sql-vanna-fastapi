@@ -1,4 +1,29 @@
-# NL2SQL — Vanna + FastAPI + Offline Web Demo
+# NL2SQL — Vanna + FastAPI
+
+## Live app
+
+**https://nl2sql-vanna-fastapi.vercel.app/**
+
+The repository now also includes a **keyless public demo** in `web/`. It creates an in-browser SQLite database, converts common analytics questions into deterministic SQL, executes the SQL, and renders the result table.
+
+This does not pretend to replace Vanna AI. It is a hosted fallback that lets reviewers test the NL → SQL → execution workflow without supplying an LLM key or database credential. The original Vanna/FastAPI code remains the LLM-backed architecture reference.
+
+Example hosted questions include:
+
+- total revenue
+- top customers by revenue
+- completed order count
+- latest orders
+- average order value
+
+### Run the web demo locally
+
+```bash
+cd web
+python -m http.server 8000
+```
+
+---
 
 A natural-language-to-SQL project built around a clinic database.
 
