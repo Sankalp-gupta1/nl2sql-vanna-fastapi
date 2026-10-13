@@ -29,7 +29,6 @@ A natural-language-to-SQL project built around a clinic database.
 
 ## Live demo
 
-**https://nl2sql-clinic-sankalp.vercel.app/**
 
 ## Two modes
 
